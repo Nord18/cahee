@@ -287,3 +287,70 @@ body {
     	color: #5585a2;
     }
 }
+
+.subscribe {
+    background: url("image/bg.jpg") no-repeat;
+    width: 1500px;
+    height: 500px;
+    padding-top: 145px;
+    padding-left: 165px;
+}
+
+.subscribe__title {
+    font-family: Raleway;
+    color: @colorCahee;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 27px;
+    padding-bottom: 34px;
+}
+
+.subscribe__dscr {
+    width: 542px;
+    font-family: Raleway;
+    color: @colorCahee;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    padding-bottom: 20px;
+}
+
+.subscribe__email {
+    width: 570px;
+    height: 55px;
+    border: 1px solid @colorCahee;
+    padding-left: 15px;
+    &::-webkit-input-placeholder {
+        font-family: Raleway;
+        color: @colorCahee;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 27px;
+    }
+    &:focus::-webkit-input-placeholder {
+        opacity: 0; 
+        transition: opacity 0.3s ease;
+    }
+}
+
+.subscribe__btn {
+    width: 170px;
+    height: 55px;
+    background-color: #96b92c;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-left: 25px;
+    &:hover {
+        border: 1px solid #96b92c;
+        background-color: #fff;
+        color: @colorCahee;
+    }
+}
+
+.subscribe__form {
+
+}
